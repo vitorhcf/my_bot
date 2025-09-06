@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <link name="imu_frame"/>
+    
+    <joint name="imu_joint" type ="fixed">
+        <parent link="chassis"/>
+        <child link="imu_frame"/>
+        <origin xyz= "0.085 -0.045 0" rpy="0 0 0"/>
+    </joint>
+
+    <!-- <link name="imu_frame">
+        <visual>
+            <geometry>
+                <box size="0.02 0.015 0.005"/>
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.02 0.015 0.005"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.4" x="0.02" y="0.015" z="0.005">
+            <origin xyz="0.085 0 -0.045"/>
+        </xacro:inertial_box>
+    </link> -->
+
+</robot>

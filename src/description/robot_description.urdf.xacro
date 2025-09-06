@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_bot">
+
+    <!-- Define the robot's base -->
+    <link name="base_link">
+    </link>
+
+    <link name="sonar_frame"/>
+    
+    <joint name="sonar_joint" type ="fixed">
+        <parent link="base_link"/>
+        <child link="sonar_frame"/>
+        <origin xyz= "-0.075 0 0.055" rpy="0 0 0"/>
+    </joint>
+
+    <link name="imu_frame"/>
+    
+    <joint name="imu_joint" type ="fixed">
+        <parent link="base_link"/>
+        <child link="imu_frame"/>
+        <origin xyz= "0.085 -0.045 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="camera_frame"/>
+    
+    <joint name="camera_joint" type ="fixed">
+        <parent link="base_link"/>
+        <child link="camera_frame"/>
+        <origin xyz= "-0.085 0 0.025" rpy="0 0 0"/>
+    </joint>
+    
+
+</robot>

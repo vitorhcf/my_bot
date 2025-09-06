@@ -1,0 +1,10 @@
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/uninstall.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/my_bot_uninstall.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/encoder_to_odom.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/test.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/edit_cache.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/rebuild_cache.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/list_install_components.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/install.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/install/local.dir
+/home/vitor/my_bot_ws/my_bot_ws/build/my_bot/CMakeFiles/install/strip.dir
